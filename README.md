@@ -7,12 +7,12 @@ Setup
 2. Create a `Page` and `Element` sheet with the [correct columns](#fieldbook-sheet-columns)
 3. Create an API key for the book (click on the arrow next to the fieldbook name and go to `Manage API`)
 4. Note down the `username` and `password`. Also note down the `book` id from the `API URL` (i.e. `https://api.fieldbook.com/v1/{BOOK ID}`)
-1. Clone/download directory
-2. Install gulp globally (`sudo npm install -g gulp`)
-4. Go to project root directory in terminal (e.g. `cd`)
-3. Install dependencies (`npm install`)
-2. Create a config.js in root directory which exports the [appropriate config object](#config-file) (using the `username`, `password` and `book` noted down before.
-4. Run `gulp` to generate the files
+5. Clone/download directory
+6. Install gulp globally (`sudo npm install -g gulp`)
+7. Go to project root directory in terminal (e.g. `cd highlight-fieldbook-extension`)
+8. Install dependencies (`npm install`)
+9. Create a config.js in root directory which exports the [appropriate config object](#config-file) (using the `username`, `password` and `book` noted down before.
+10. Run `gulp` to generate the files
 
 
 
@@ -41,7 +41,7 @@ Columns:
 6. Meta
 7. Element (link to Element sheet)
 
-### Element
+#### Element
 
 Columns:
 
