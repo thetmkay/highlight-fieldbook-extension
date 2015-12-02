@@ -1,0 +1,19 @@
+{
+  "name": "highlight-plugin",
+  "version": "0.0.1",
+  "description": "Plugin to save highlighted content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Nishimura <me@georgenishimura.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "fieldbook-promise": "github:thetmkay/node-fieldbook-promise",
+    "node-fieldbook": "0.0.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "gulp-sass": "^2.1.0"
+  }
+}
