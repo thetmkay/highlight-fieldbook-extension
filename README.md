@@ -1,11 +1,9 @@
 A (chrome) extension which saves web pages and selected/highlighted text to a corresponding fieldbook. Press the extension to activate.
 
-To use:
-
 Setup
 -----
 
-1. Create a [FieldBook](www.fieldbook.com)
+1. Create a [FieldBook](https://www.fieldbook.com)
 2. Create a `Page` and `Element` sheet with the [correct columns](#fieldbook-sheet-columns)
 3. Create an API key for the book (click on the arrow next to the fieldbook name and go to `Manage API`)
 4. Note down the `username` and `password`. Also note down the `book` id from the `API URL` (i.e. `https://api.fieldbook.com/v1/{BOOK ID}`)
