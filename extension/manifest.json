@@ -5,14 +5,14 @@
   "description": "Save highlighted pieces of text to fieldbook",
   "version": "1.0",
   "background": {
-	"scripts":["public/js/background.js"]
+	"scripts":["js/background.js"]
   }, 
   "browser_action": {
-    "default_icon": "public/img/extension-icon.png"
+    "default_icon": "img/extension-icon.png"
   },
   "content_scripts":[{
 	 "matches": ["*://*/*"],
-     "js": ["public/js/script.js"]
+     "js": ["js/script.js"]
   }],
   "permissions": [
     "activeTab",
