@@ -1,3 +1,4 @@
 node_modules
+**/**/*.swp
 .sass_cache
 config.js
