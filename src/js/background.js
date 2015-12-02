@@ -4,7 +4,6 @@
 function activate(tab){
 
 	var Fieldbook = require('fieldbook-promise'),
-		_ = require('underscore'),
 		url = require('url'),
 		config = require('../../config');
 
@@ -69,6 +68,15 @@ function activate(tab){
 		});
 	}
 
+	function findFirst(arr, callback){
+		for(var i = 0; i < arr.length; i++){
+			if(callback(arr[i])){
+				return arr[i];
+			}
+		}
+		return null;
+	}
+
 	var PAGE_SHEET = 'page';
 	var ELEMENT_SHEET = 'element';
 
@@ -86,7 +94,7 @@ function activate(tab){
 
 		var fullUrl = urlObj.href;
 
-		var samePage = _.find(sheet, function(obj){
+		var samePage = findFirst(sheet, function(obj){
 			return obj.domain === urlObj.hostname && obj.path === urlObj.path;
 		});
 

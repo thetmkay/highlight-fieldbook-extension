@@ -1,7 +1,7 @@
 {
   "name": "highlight-plugin",
   "version": "0.0.1",
-  "description": "Plugin to save highlighted content",
+  "description": "Plugin to save web pages + highlighted content to a fieldbook",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +9,15 @@
   "author": "George Nishimura <me@georgenishimura.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "fieldbook-promise": "github:thetmkay/node-fieldbook-promise",
-    "node-fieldbook": "0.0.3",
-    "underscore": "^1.8.3"
+    "fieldbook-promise": "github:thetmkay/node-fieldbook-promise"
   },
   "devDependencies": {
-    "gulp-sass": "^2.1.0"
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
